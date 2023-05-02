@@ -1,0 +1,34 @@
+.TimerList {
+  margin-top: 100px;
+}
+ul {
+  list-style: none;
+  width: 50%;
+}
+li {
+  height: 4rem;
+  padding: 0.5rem;
+  border-radius: 15px;
+  width: 90%;
+  margin: 10%;
+  background-color: #d9d9d9;
+  position: relative;
+  text-align: left;
+}
+.deleteTimer {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+  top: 5px;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+}
+.remainingTime {
+  display: block;
+  font-size: 30px;
+  font-weight: 600;
+}
+.startTime {
+  display: block;
+}
